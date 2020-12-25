@@ -22,7 +22,7 @@
 
 ## 示例 
 
-https:w4j1e.xyz/movies
+https://w4j1e.xyz/movies
 
 -----------------------------------------
 
