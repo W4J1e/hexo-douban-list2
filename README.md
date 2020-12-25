@@ -1,6 +1,32 @@
-# hexo-douban-list
+# hexo-douban-list2
 
 [![GitHub license](https://img.shields.io/github/license/mythsman/hexo-douban.svg)](https://github.com/mythsman/hexo-douban/blob/master/LICENSE)
+
+
+
+## 说明：
+
+基于作者TianZonglin基于原作者mythsman二次开发的面向github编程开发。由于此版更改含有部分个人喜好的改变，因此不打算在原repo提交pr。
+
+## 更新内容：
+
+1.还原电影“在看、想看、看过”菜单，且未恢复“在看”内容；
+
+2.修改点击标题跳转地址，现在能正确跳转到豆瓣相应object了；
+
+## TODO：
+
+1.修复“想看”内容的图片显示；
+
+2.优化和精简代码。
+
+## 示例 
+
+https:w4j1e.xyz/movies
+
+-----------------------------------------
+
+以下是原作者的文档，配置使用请参考：
 
 基于HEXO豆瓣插件 [hexo-douban](https://github.com/mythsman/hexo-douban) 的二次开发插，强烈建议先试用原插件，如果您觉得以下特性更能满足您的需要，那么再使用本插件。
 
@@ -18,7 +44,7 @@
 
 **注意：本插件构建的页面完全不保证兼容IE等上古浏览器，推广使用现代浏览器，人人有责。**
 
- 
+
 ## 第一步：安装
 
 ``` bash
@@ -85,7 +111,7 @@ douban:
 ## 异常
 
 如果构建页面为空或404，且日志输出为 `INFO  0 movies have been loaded in xx ms`，这时怀疑您的IP由于多次请求豆瓣的页面而被豆瓣封禁了，一般第二天会解禁，使用代理或更改IP即可解决。
- 
+
 ## 示例
 
 https://www.cz5h.com/movies
