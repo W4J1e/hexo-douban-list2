@@ -32,7 +32,7 @@ https://w4j1e.xyz/movies
 
 -----------------------------------------
 
-以下是原作者的文档，配置使用请参考：
+以下是原作者的文档（有改动），配置使用请参考：
 
 基于HEXO豆瓣插件 [hexo-douban](https://github.com/mythsman/hexo-douban) 的二次开发插，强烈建议先试用原插件，如果您觉得以下特性更能满足您的需要，那么再使用本插件。
 
@@ -54,9 +54,7 @@ https://w4j1e.xyz/movies
 ## 第一步：安装
 
 ``` bash
-# 如果您使用过原插件请先卸载之
-$ npm uninstall --save hexo-douban
-$ npm install --save hexo-douban-list
+见上方新版本安装，如果有安装原版需先卸载。
 ```
 
 ## 第二步：配置
@@ -82,7 +80,7 @@ douban:
 - **builtin**: 是否将生成页面的功能嵌入`hexo s`和`hexo g`中，默认嵌入（TRUE）即npm安装后无需任何操作按原命令部署博客即可生效。
 - **title**: 该页面的标题。
 - **quote**: 写在页面开头的一段话,支持html语法。
-- **length**: 默认值为2，非页数，可以自由尝试（建议取值:2-4）。
+- **length**: 默认值为2，爬取数据页数通常为该值*2。
 - **timeout**: 爬取数据的超时时间，默认是 10000ms ,如果在使用时发现报了超时的错(ETIMEOUT)可以把这个数据设置的大一点。
 
 对于 `valine_id` 和 `valine_key`，主要针对的是**Volantis**主题（以及其他默认渲染评论区域的主题），如果您在测试时页面没有评论区域，则可以忽略这两项，如果出现以下显示则需要填写此两项。（这两项是什么？请移步[Valine官方介绍](https://valine.js.org/quickstart.html#%E8%8E%B7%E5%8F%96APP-ID-%E5%92%8C-APP-Key)）
@@ -97,7 +95,7 @@ douban:
 
 ## 升级
 
-使用 `npm install hexo-douban-list --update --save` 直接更新。
+使用 `npm install hexo-douban-list2 --update --save` 直接更新。
 
 ## 测试
 
@@ -116,7 +114,7 @@ douban:
 
 ## 异常
 
-如果构建页面为空或404，且日志输出为 `INFO  0 movies have been loaded in xx ms`，这时怀疑您的IP由于多次请求豆瓣的页面而被豆瓣封禁了，一般第二天会解禁，使用代理或更改IP即可解决。
+如果构建页面为空或404，且日志输出为 `INFO  0 movies have been loaded in xx ms`，这可能是你的node版本过高，建议使用12。
 
 ## 示例
 
