@@ -11,7 +11,7 @@
 ## 安装
 
 ``` bash
-$ npm install --save hexo-douban-list2
+$ npm i hexo-douban-list2
 ```
 
 ## 更新内容：
