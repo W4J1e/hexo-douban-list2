@@ -8,6 +8,12 @@
 
 基于作者TianZonglin基于原作者mythsman二次开发的面向github编程开发。由于此版更改含有部分个人喜好的改变，因此不打算在原repo提交pr。
 
+## 安装
+
+``` bash
+$ npm install --save hexo-douban-list2
+```
+
 ## 更新内容：
 
 1.还原电影“在看、想看、看过”菜单，且未恢复“在看”内容；
