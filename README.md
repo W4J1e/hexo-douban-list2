@@ -8,10 +8,12 @@
 
 基于作者TianZonglin基于原作者mythsman二次开发的面向github编程开发。由于此版更改含有部分个人喜好的改变，因此不打算在原repo提交pr。
 
+**注意**：如果主题使用的非valine评论系统，需要修改hexo-douban-list2\lib\template\movie.ejs中的container。
+
 ## 安装
 
 ``` bash
-$ npm install --save hexo-douban-list2
+$ npm i hexo-douban-list2
 ```
 
 ## 更新内容：
