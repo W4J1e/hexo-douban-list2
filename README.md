@@ -69,7 +69,7 @@ douban:
 
 ## 升级
 
-使用 `npm install hexo-douban-list2 --update --save` 直接更新。
+使用 `npm update hexo-douban-list2` 直接更新。
 
 ## 测试
 
