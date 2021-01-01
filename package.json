@@ -1,6 +1,6 @@
 {
   "name": "hexo-douban-list2",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A plugin for hexo to generat douban movies from douban.com",
   "main": "index.js",
   "directories": {
