@@ -110,7 +110,7 @@ douban:
 
 ## 示例 
 
-本项目作者：https://w4j1e.xyz/movies
+本项目作者：https://www.hin.cool/movies/
 
 前任作者：https://www.cz5h.com/movies
 
