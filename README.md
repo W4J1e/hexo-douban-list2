@@ -6,7 +6,7 @@
 
 ## 说明：
 
-基于作者TianZonglin基于原作者mythsman二次开发的面向github编程开发。由于此版更改含有部分个人喜好的改变，因此不打算在原repo提交pr。
+基于作者TianZonglin基于原作者mythsman二次开发的面向github编程开发。由于此版更改含有部分个人喜好的改变，因此不打算在原repo提交pr。如能正常使用，本项目将不再更新。
 
 **以下是前任作者的说明（有改动），配置使用请参考**：
 
@@ -39,11 +39,11 @@ $ npm i hexo-douban-list2
 
 ## 配置
 
-将下面的配置写入站点的配置文件 `_config.yml` 里(不是主题的配置文件).
+将下面的配置写入站点的配置文件 `_config.yml` 里(不是主题的配置文件)。
 
 ``` yaml
 douban:
-  user: ID（数字或字幕|无需引号）
+  user: ID（数字或字母|无需引号）
   builtin: true
   movie:
     title: '生成页面的标题'
@@ -61,7 +61,7 @@ douban:
 - **title**: 该页面的标题。
 - **quote**: 写在页面开头的一段话,支持html语法。
 - **length**: 默认值为2，爬取数据页数通常为该值*2。
-- **timeout**: 爬取数据的超时时间，默认是 10000ms ,如果在使用时发现报了超时的错(ETIMEOUT)可以把这个数据设置的大一点。
+- **timeout**: 爬取数据的超时时间，默认是 10000ms ，如果在使用时发现报了超时的错(ETIMEOUT)可以把这个数据设置的大一点。
 
 ## 使用
 
@@ -73,7 +73,7 @@ douban:
 
 ## 测试
 
-执行 `hexo clean && hexo server`，之后访问 `localhost:4000/movies` 即可访问生成的影评页面。
+执行 `hexo clean && hexo server`，之后访问 `localhost:4000/movies` 即可访问生成的观影页面。
 
 ## 删除（可补回来）的内容
 
@@ -82,7 +82,7 @@ douban:
 
 - 去掉了书籍和音乐，单纯针对电影
 
-## 异常
+## 异常说明
 
 如果构建页面为空或404，且日志输出为 `INFO  0 movies have been loaded in xx ms`，这可能是你的node版本过高，建议使用12。
 
@@ -113,6 +113,12 @@ douban:
 本项目作者：https://www.hin.cool/movies/
 
 前任作者：https://www.cz5h.com/movies
+
+### 截图
+
+![watched](https://7.dusays.com/2021/02/25/a6dd1085d1e57.jpg)
+
+![wish](https://7.dusays.com/2021/02/25/41a67f5b8412b.jpg)
 
 -----------------------------------------
 
