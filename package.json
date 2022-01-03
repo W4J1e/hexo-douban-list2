@@ -1,6 +1,6 @@
 {
   "name": "hexo-douban-list2",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A plugin for hexo to generat douban movies from douban.com",
   "main": "index.js",
   "directories": {
@@ -14,7 +14,7 @@
     "hexo-log": "^0.2.0",
     "path": "^0.12.7",
     "urllib-sync": "^1.0.1",
-    "xmldom": "^0.1.27",
+    "@xmldom/xmldom": "^0.8.0",
     "xpath": "^0.0.24"
   },
   "devDependencies": {},
